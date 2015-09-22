@@ -1,0 +1,179 @@
+body{
+	background: url(../img/header.jpg)no-repeat;
+}
+.geral{
+	width:962px;
+	margin: 20px auto 0;
+	
+}
+
+/* inicio topo*/
+#topo{
+	border-bottom: 3px solid #000;
+	padding:0 0 15px 0;
+}
+#logo h1{
+	background: url(../img/logo.png) no-repeat;
+	width: 255px;
+	height: 59px;
+	text-indent: -999px;
+}
+.conteudo{
+	border-bottom: 3px solid #000;
+	padding:0 0 15px 0;
+}
+#topo ul{
+	float: right;
+	margin: -38px 0 0 0;
+}
+#topo ul li {
+	display: inline;
+	padding: 0 0 0 60px;
+	text-transform: uppercase;
+}
+#topo ul li a{
+	color:black ;
+	font-weight:bold ;
+	text-decoration: none;
+}
+#topo ul li a.ativo{
+	color:#00FF00;
+	
+	
+}
+#topo ul li a:hover{
+	color:#00FF00 ;
+	font-weight:bold ;
+	text-decoration: none;
+}
+/*fim topo */
+/*inicio conteudo*/
+.slider{
+	margin: 10px 0 0 0;
+	padding: 0 0 10px 120px;
+	border-bottom: 3px solid #000;
+}
+.conteudo .controls a{
+	position: relative;
+	left: -60px;
+
+}
+.conteudo .slider img{
+	width: 700px;
+	height: 393px;	
+}
+.chamadas{
+	margin: 20px 0 0 0;
+}
+
+.chamadas .coluna1{
+	width: 305px;
+	float: left;
+	background:url(../img/sobre.png)no-repeat;
+
+}
+.chamadas .coluna2{
+	width: 305px;
+	background:url(../img/vip.png)no-repeat;
+	float: left;
+	margin-left: 40px;
+
+
+}
+.chamadas .coluna3{
+	background:url(../img/DOWN.png)no-repeat;
+	width: 305px;
+	float: left;
+
+}
+.chamadas .coluna3 a{
+color: green;
+text-decoration: none;
+
+}
+.chamadas .coluna3 a:hover{
+color: red;
+text-decoration: none;
+
+}
+.chamadas  h2{
+	color: red;
+	padding: 0px 0 0 0;
+}
+.chamadas  h3{
+	color: red;
+	padding: 16px 0 0 0;
+}
+.chamadas  h4{
+	color: red;
+	padding: 12px 0 0 0;
+}
+.chamadas  p{
+	background: url(../img/pretinha.png)no-repeat;
+	color: white;
+	font-size: 14px;
+	padding: 20px 10px 0 17px;
+	width: 280px;
+	height: 238px;
+}
+.social{
+	padding: 18px 0 0 0;
+	clear:both;
+
+}
+.social .fb-page{
+	width: 300px;
+	height:70px;
+	border: 1px solid;
+	float: both;
+
+}
+
+/* rodape */
+.rodape{
+	background: black;
+	margin-top: 20px;
+	padding: 10px 0;
+	clear: both;
+
+}
+
+.rodape .footer{
+	width:962px;
+	margin:0 auto;
+	padding:3px;
+
+
+}
+.rodape .footer ul{
+	width: 350px;
+
+}
+.rodape .footer ul li{
+	display: inline;
+	border-left: 1px solid red;
+	padding: 0 4px 0 4px;
+
+}
+.rodape .footer ul li a{
+	color: white;
+	text-decoration: none;
+}
+.rodape .footer ul li a:hover{
+	color: red;
+}
+.rodape .footer p{
+	color: white; 
+	position: relative;
+	font-size: 12px;
+	left: 38px;
+	color: blue;
+}
+.rodape .footer h6{
+	background: url(../img/logo.png)no-repeat;
+	width: 255px;
+	height: 59px;
+	float: right;
+	text-indent: -9999px;
+	margin-top: -75px;
+}
