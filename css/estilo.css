@@ -86,12 +86,12 @@ body{
 	float: left;
 
 }
-.chamadas .coluna3 a{
+.chamadas  a{
 color: green;
 text-decoration: none;
 
 }
-.chamadas .coluna3 a:hover{
+.chamadas a:hover{
 color: red;
 text-decoration: none;
 
