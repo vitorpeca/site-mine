@@ -111,8 +111,8 @@ text-decoration: none;
 .chamadas  p{
 	background: url(../img/pretinha.png)no-repeat;
 	color: white;
-	font-size: 14px;
-	padding: 20px 10px 0 17px;
+	font-size: 12px;
+	padding: 20px 10px 0 16px;
 	width: 280px;
 	height: 238px;
 }
@@ -176,4 +176,14 @@ text-decoration: none;
 	float: right;
 	text-indent: -9999px;
 	margin-top: -75px;
+}
+
+/* PAGINA VIP */
+
+.tutorial  iframe{
+	padding: 15px 8px 15px 10px;
+	width: 300px;
+	height: 200px;
+	display: inline;
+	float: left;
 }
