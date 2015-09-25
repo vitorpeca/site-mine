@@ -2,7 +2,7 @@ body{
 	background: url(../img/header.jpg)no-repeat;
 }
 .geral{
-	width:962px;
+	width:960px;
 	margin: 20px auto 0;
 	
 }
@@ -47,6 +47,7 @@ body{
 	text-decoration: none;
 }
 /*fim topo */
+
 /*inicio conteudo*/
 .slider{
 	margin: 10px 0 0 0;
@@ -59,7 +60,7 @@ body{
 
 }
 .conteudo .slider img{
-	width: 700px;
+	width: 72,91666666666667%;
 	height: 393px;	
 }
 .chamadas{
@@ -67,6 +68,7 @@ body{
 }
 
 .chamadas .coluna1{
+
 	width: 305px;
 	float: left;
 	background:url(../img/sobre.png)no-repeat;
@@ -76,8 +78,6 @@ body{
 	width: 305px;
 	background:url(../img/vip.png)no-repeat;
 	float: left;
-	margin-left: 40px;
-
 
 }
 .chamadas .coluna3{
@@ -98,21 +98,31 @@ text-decoration: none;
 }
 .chamadas  h2{
 	color: red;
-	padding: 0px 0 0 0;
+	width: 296px;
+	height:45px;
+	margin: 0;
+	text-indent:-999px;
 }
 .chamadas  h3{
 	color: red;
-	padding: 16px 0 0 0;
+	width: 305px;
+	height:45px;
+	margin: 0;
+	text-indent:-999px;
 }
 .chamadas  h4{
 	color: red;
-	padding: 12px 0 0 0;
+	width: 302px;
+	height:45px;
+	margin: 0;
+	text-indent: -999px;
 }
 .chamadas  p{
 	background: url(../img/pretinha.png)no-repeat;
 	color: white;
 	font-size: 12px;
-	padding: 20px 10px 0 16px;
+	padding: 10px 10px 0 19px;
+	margin:0px;
 	width: 280px;
 	height: 238px;
 }
@@ -142,17 +152,14 @@ text-decoration: none;
 	width:962px;
 	margin:0 auto;
 	padding:3px;
-
-
 }
 .rodape .footer ul{
-	width: 350px;
-
+	width: 400px;
+	padding: 0px;
 }
 .rodape .footer ul li{
 	display: inline;
-	border-left: 1px solid red;
-	padding: 0 4px 0 4px;
+	padding: 0 4px 0 15px;
 
 }
 .rodape .footer ul li a{
@@ -166,8 +173,17 @@ text-decoration: none;
 	color: white; 
 	position: relative;
 	font-size: 12px;
-	left: 38px;
+	left: 10px;
 	color: blue;
+}
+.rodape .footer a{
+text-decoration: none;
+color: blue;
+}
+.rodape .footer a:hover{
+text-decoration: none;
+color: blue;
+
 }
 .rodape .footer h6{
 	background: url(../img/logo.png)no-repeat;
@@ -179,11 +195,21 @@ text-decoration: none;
 }
 
 /* PAGINA VIP */
+.tutorial .coluna4{
+	margin: 0 auto;
+	width: 550px;
+	height: 450px;
+}
+.tutorial  p{
+	font-size: 20px;
+	font-weight:bold ;
+	padding: 10px 0 0 20px;
+	color: white;
 
+}
 .tutorial  iframe{
-	padding: 15px 8px 15px 10px;
-	width: 300px;
-	height: 200px;
+	width: 500px;
+	height: 350px;
 	display: inline;
-	float: left;
+	padding: 0 0 0 20px;
 }
